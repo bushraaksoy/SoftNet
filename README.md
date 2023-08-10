@@ -1,2 +1,2 @@
-# SoftNet
-Website for SoftNet Technologies 🖼️
+# SoftNet Technologies 🔧
+This is a website for the company SoftNet Technologies 💻
