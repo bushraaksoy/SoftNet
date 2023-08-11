@@ -27,3 +27,43 @@ body {
   color: #db4343;
   /* color: #1e7e43 ; */
 }
+.footer{
+  background-color:#4267b2;
+  color: white;
+  display: flex;
+  
+  /* gap: 50%; */
+}
+.footer h4 {
+  font-size: 20px;
+  margin: 0px 0px 8px ;
+}
+.footer-col{
+  background-color: #4267b2;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50%;
+  margin: 0px 0px 8px ;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #1e7e43;
+  background-color: #ffffff;
+}
+.copy{
+  font-size: 10px;
+  margin: 0px 0px 16px;
+}
