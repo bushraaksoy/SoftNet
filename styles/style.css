@@ -21,6 +21,9 @@ body {
   color: #222;
 }
 
-.nav-item:hover {
-  color: #1e7e43 !important;
+.nav-item .nav-link:hover {
+  transform: translateY(-1px);
+  transition: 0.4s ease;
+  color: #db4343;
+  /* color: #1e7e43 ; */
 }
