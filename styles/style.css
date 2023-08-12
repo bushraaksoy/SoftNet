@@ -36,7 +36,7 @@ body {
 }
 .footer h4 {
   font-size: 20px;
-  margin: 0px 0px 8px ;
+  margin: 0px 0px 8px 0px ;
 }
 .footer-col{
   background-color: #4267b2;
@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 50%;
-  margin: 0px 0px 8px ;
+  margin: 0px 0px 8px 0px ;
 }
 
 .footer-col .social-links a {
@@ -65,5 +65,6 @@ body {
 }
 .copy{
   font-size: 10px;
-  margin: 0px 0px 16px;
+  margin: 0px 0px 16px 0px;
 }
+ 
