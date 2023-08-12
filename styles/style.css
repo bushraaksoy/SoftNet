@@ -21,9 +21,16 @@ body {
   color: #222;
 }
 
+.navbar-collapse {
+  transition: none;
+}
+
 .nav-item .nav-link:hover {
   transform: translateY(-1px);
   transition: 0.4s ease;
   color: #db4343;
-  /* color: #1e7e43 ; */
+}
+
+.navbar-nav .nav-link.active {
+  color: #1e7e43;
 }
