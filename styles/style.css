@@ -65,7 +65,8 @@ p {
   color: #db4343;
   background-color: #afe1c29a;
   border-radius: 25px;
-  padding: 5px 15px;
+  font-size: 14px;
+  padding: 5px 10px;
  }
  .links a:hover {
   color: #1e7e43;
