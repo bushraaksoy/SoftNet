@@ -13,6 +13,20 @@ p {
   margin-bottom: 0px;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d2d2d2;
+  border-radius: 10px;
+}
+
 /* navbar */
 .my-container {
   padding: 6px 20px;
@@ -43,6 +57,66 @@ p {
 
 .navbar-nav .nav-link.active {
   color: #1e7e43;
+}
+
+ /* services - cards */
+
+ .links a{
+  color: #db4343;
+  background-color: #afe1c29a;
+  border-radius: 25px;
+  padding: 5px 15px;
+ }
+ .links a:hover {
+  color: #1e7e43;
+ }
+ .cards-section {
+  padding: 20px;
+ }
+
+ .section-title {
+  padding: 25px 0;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .section-title::after {
+  position: absolute;
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #e84444;
+  box-shadow: 0 0 0 5px #fff;
+  top: 50px;
+ }
+
+ .section-title::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 120px;
+  top: 55px;
+  background: #1e3d7e;
+}
+
+.card-img-top {
+  height: 190px;
+  object-fit: cover;
+}
+
+.card-text {
+  font-size: 12px;
+  max-height: 75px;
+  overflow-y: auto;
+}
+.card{
+  width: 100%;
 }
 
 /* footer */
