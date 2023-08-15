@@ -15,6 +15,11 @@ p {
   margin-bottom: 0px;
 }
 
+::selection {
+  background: #ee7171;
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -155,11 +160,25 @@ p {
   height: 360px;
 }
 
+/* about */
+
+.collapse {
+  font-size: 15px;
+  color: #444;
+  padding: 0 20px;
+}
+
+/* .list-group > .card-header::before {
+  font-family: "Font Awesome";
+  content: "\e61a";
+} */
+
 /* footer */
 
 .footer {
   background-color: #4267b2;
   color: white;
+  margin-top: 25px;
 }
 
 .footer-bottom {
