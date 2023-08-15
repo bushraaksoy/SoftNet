@@ -159,6 +159,38 @@ p {
 .card {
   height: 360px;
 }
+ /* partner - card */
+ .section-title2 {
+  padding: 25px 0;
+  font-weight: 500;
+  font-size: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title2::after {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #e84444;
+  box-shadow: 0 0 0 5px #fff;
+  top: 68px;
+}
+
+.section-title2::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 120px;
+  top: 72px;
+  background: #1e3d7e;
+}
+
 
 /* about */
 
