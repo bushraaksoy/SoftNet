@@ -68,14 +68,14 @@ p {
 
 /* homepage slider */
 
-.splide__slide > img {
+.slider img {
   width: 100% !important;
   height: 415px;
   object-fit: cover;
   object-position: bottom;
 }
 
-.splide__slide {
+.slider .splide__slide {
   position: relative;
   display: flex;
   text-align: center;
@@ -83,7 +83,7 @@ p {
   justify-content: center;
 }
 
-.splide__slide h1 {
+.slider .splide__slide h1 {
   position: absolute;
   font-size: 30px;
   font-weight: 500;
@@ -92,10 +92,12 @@ p {
   text-shadow: 0 0 5px #fff;
 }
 
-.splide__slide button {
+.slider .splide__slide button {
   position: absolute;
   top: 242px;
 }
+
+/* Partners Slider */
 
 /* services - cards */
 
@@ -159,8 +161,8 @@ p {
 .card {
   height: 360px;
 }
- /* partner - card */
- .section-title2 {
+/* partner - card */
+.section-title2 {
   padding: 25px 0;
   font-weight: 500;
   font-size: 36px;
@@ -190,7 +192,6 @@ p {
   top: 72px;
   background: #1e3d7e;
 }
-
 
 /* about */
 
