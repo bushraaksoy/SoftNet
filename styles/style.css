@@ -267,36 +267,31 @@ p {
   color: white;
   transition: 0.2s ease;
 }
+
 .pdf:hover {
   color: red;
 }
 /* contacts */
-.linkss{
+.linkss {
   display: flex;
-  gap: 5%;
-  margin-top: 30px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  
-  
+  font-size: 14px;
 }
-.linkss a{
-  background-color:  #87e5ab;
+
+.linkss a {
+  background-color: #87e5ab;
   color: #db4343;
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease;
   display: flex;
 }
 
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 @media (max-width: 767px) {
   .footer-top {
     display: flex;
