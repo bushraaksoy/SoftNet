@@ -8,7 +8,7 @@ const navLinks = document.querySelectorAll(".nav-link").forEach((link) => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  new Splide(".slider", {
+  new Splide(".slider-home", {
     type: "loop",
     perPage: 1,
     perMove: 1,
@@ -24,6 +24,18 @@ document.addEventListener("DOMContentLoaded", function () {
     perMove: 1,
     arrows: false,
     pagination: false,
+    autoplay: true,
+    interval: 5000,
+  }).mount();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide(".slider-news", {
+    type: "loop",
+    perPage: 4,
+    perMove: 4,
+    arrows: true,
+    pagination: true,
     autoplay: true,
     interval: 5000,
   }).mount();
